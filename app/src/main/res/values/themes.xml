@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
 
-    <style name="Theme.CoffeShop" parent="android:Theme.Material.Light.NoActionBar" />
+    <style name="Base.Theme.CoffeShop" parent="Theme.MaterialComponents.DayNight.NoActionBar" />
+    <style name="Theme.CoffeShop" parent="Base.Theme.CoffeShop"/>
+    <style name="CircleImageView">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">10dp</item>
+    </style>
+    <style name="CircleImageView2">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">2dp</item>
+    </style>
 </resources>
